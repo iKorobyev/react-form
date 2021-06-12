@@ -1,0 +1,16 @@
+@import '../variables';
+
+.item__input {
+  width: 30%;
+  margin: 0 auto;
+
+  input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: #4a4a4a;
+    color: #fff;
+    margin: 0 15px 15px 0;
+  }
+}
