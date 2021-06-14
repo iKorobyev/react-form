@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Black.eot");
+  src: local("./fonts/Proxima Nova Black"), local("ProximaNova-Black"), url("./fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("./fonts/ProximaNova-Black.woff") format("woff"), url("./fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Bold.eot");
+  src: local("./fonts/Proxima Nova Bold"), local("ProximaNova-Bold"), url("./fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/ProximaNova-Bold.woff") format("woff"), url("./fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Regular.eot");
+  src: local("./fonts/Proxima Nova Regular"), local("ProximaNova-Regular"), url("./fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/ProximaNova-Regular.woff") format("woff"), url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Extrabld.eot");
+  src: local("./fonts/Proxima Nova Extrabold"), local("ProximaNova-Extrabld"), url("./fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("./fonts/ProximaNova-Extrabld.woff") format("woff"), url("./fonts/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  font-family: "Proxima Nova", Roboto, system-ui, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #ccc;
+}
+
+a,
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ccc;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 40px 0 5px;
+  border-bottom: 1px solid #3e3e3e;
+}
+
+.item__input {
+  width: 30%;
+  margin: 0 auto;
+}
+.item__input input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: #4a4a4a;
+  color: #fff;
+  margin: 0 15px 15px 0;
+}
+
+body {
+  background-color: #181A1F;
+  padding: 50px 0;
+}
+
+.wrapper {
+  width: calc(100vw - 100px);
+  height: 100%;
+  background-color: #242425;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 1400px;
+  box-shadow: -8px -9px 4px 1px rgba(17, 17, 17, 0.25);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 20px;
+}
+.content__title {
+  padding-bottom: 30px;
+}
+.content__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=app.css.map */

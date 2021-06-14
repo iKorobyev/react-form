@@ -10,7 +10,36 @@
     border-radius: 10px;
     font-size: 13px;
     background-color: #4a4a4a;
-    color: #fff;
+    color: #ccc;
     margin: 0 15px 15px 0;
+  }
+
+  .input__checkbox {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  select {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: #4a4a4a;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .input__select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    p {
+      margin-right: 15px;
+    }
+  }
+
+  input::-webkit-input-placeholder {
+    color: #ccc;
   }
 }
